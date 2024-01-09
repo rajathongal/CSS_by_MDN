@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generating content</title>
+    <style>
+      .box::before {
+        content: "This should show before the other content. Ha Ha !. ";
+      }
+
+      p::first-letter {
+        font-size: xx-large;
+        font-size: 120%;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="box">Content in the box in my HTML page.</p>
+  </body>
+</html>
